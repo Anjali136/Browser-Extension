@@ -1,0 +1,51 @@
+.todo_container
+{
+  position: absolute;
+  right: 2rem;
+  bottom: 8.5rem;
+  overflow-y: auto;
+  max-height: 50vh;
+  width: 20vw;
+  background-color: rgb(43, 3, 43);
+  opacity: .9;
+  border-radius: 4px;
+  padding: 1rem;
+}
+.todo-input
+{
+  background-color: transparent;
+  border: none;
+  color:white ;
+  border-bottom: 1px solid white;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  width: 17vw;
+}
+.todo-input:focus
+{
+  outline: none;
+}
+.todo-items
+{
+  padding: 8px 0;
+  width: 16vw;
+  display: flex;
+  align-items: center;
+}
+.todo-label
+{
+  min-width: 100%;
+  word-wrap: break-word;
+  font-size: 1.25rem;
+}
+.todo-clear-btn
+{
+  margin-left: auto;
+  font-size: 1.25rem;
+
+}
+.todo-check
+{
+  width: 1.25rem;
+  height: 1.25rem;
+}

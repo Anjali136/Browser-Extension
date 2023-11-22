@@ -1,0 +1,35 @@
+.home-cointainer
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+    padding-top: 2.5rem;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+.user-details
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    font-size: 2.5rem;
+    color: white;
+    width: 45vw;
+    text-align: center;
+}
+.input:focus
+{
+    outline: none;
+}
